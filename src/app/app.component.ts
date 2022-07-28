@@ -10,7 +10,7 @@ import { NavigationEnd, Router } from '@angular/router';
 })
 export class AppComponent implements OnInit {
   public url: any;
-  title = 'Unice';
+  title = 'KAIZEN';
   public layoutType: string = 'dark'
 
   constructor(public customize: CustomizerService, private router: Router, private _renderer2: Renderer2,  @Inject(DOCUMENT) private _document: Document) { 
